@@ -33,25 +33,21 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+          Hi, my name is Scott Laine. I am a passionate front end developer who just graduated with a Bachelor of Technology looking for a career in developing or designing applications and websites.
+          <br></br>
+          <br></br>
+          In my free time, I like to stay active and always on the move. I try to go to the gym almost every day. I like to bike almost everywhere I go and I also swim whenever I get some free time.
+          <br></br>
+          <br></br>
+          For vacations, I enjoy the outdoors. Camping and cottages are some of my favorite destinations. Campfires, canoeing, hiking, fishing, and especially swimming are a few examples of what I like to do while I'm out there. 
+          <br></br>
+          <br></br>
+          When at home, I like to play videogames. Most of the time I prefer to play online multiplayer games but I like to play some single-player games too. When I am almost finished playing a game I like to install mods onto it to try and make the game better and get a bit more enjoyment out of the game.  
+          <br></br>
+          <br></br>
+           
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+         
           {close}
         </article>
 
@@ -62,24 +58,19 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Work </h2>
           <span className="image main">
+          <h3>Laine Enterprises</h3>
             <img src={pic02} alt="" />
           </span>
+          
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <a href="https://www.laineenterprises.ca/">www.laineenterprises.ca</a>
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          This is a website that I did for the owner of a driveway sealing company. The client asked for a site that was stunning to look at with detailed information 
+          explaining what services they performed, what the company stood for, and all the ways to get in contact with them. In the end, 
+          the client was very happy with the finished product, and so was I. 
           </p>
           {close}
         </article>
@@ -96,13 +87,18 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+          I am a creative software developer seeking full or part-time employment to enhance my advanced computer knowledge, 
+          debugging capabilities, innovative problem-solving skills, and dedication to quality.
+          <br></br>
+          <br></br>
+I recently graduated from Seneca with an Honours Bachelor of Technology – Software Development. I also graduated from the Digital Media Arts Diploma program. 
+<br></br>
+          <br></br>
+I have previous work experience working at Toronto District School Board's Web Services, Seneca's Web Development Team, Ace Web Design, and through personal and client projects. For these I have used Adobe Experience Manager, Gatsby, WordPress, DNN and Dreamweaver 
+<br></br>
+          <br></br>
+In my schooling and through my personal projects I have used many programming languages and tools to assist me. I currently like to use JavaScript but I am familiar 
+with C, C++, C#, Java, HTML, XHTML, ASP, CSS, PHP, Dreamweaver, Photoshop, Adobe Creative Suite, SQL, Oracle, Unity, Unreal Engine, Flash Software Tools, and many more. 
           </p>
           {close}
         </article>
@@ -137,34 +133,7 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
+      
           {close}
         </article>
       </div>
