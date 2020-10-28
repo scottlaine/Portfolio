@@ -3,6 +3,10 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
+import pic06 from '../images/pic06.jpg'
+import pic07 from '../images/pic07.jpg'
 
 class Main extends React.Component {
   render() {
@@ -61,17 +65,84 @@ class Main extends React.Component {
           <h2 className="major">Work </h2>
           <span className="image main">
           <h3>Laine Enterprises</h3>
-            <img src={pic02} alt="" />
+          <a href="https://www.laineenterprises.ca/" target="_blank"><img src={pic02} alt="" /></a>
           </span>
           
           <p>
-          <a href="https://www.laineenterprises.ca/">www.laineenterprises.ca</a>
+          <a href="https://www.laineenterprises.ca/" target="_blank" >www.laineenterprises.ca</a>
           </p>
           <p>
-          This is a website that I did for the owner of a driveway sealing company. The client asked for a site that was stunning to look at with detailed information 
+          This is a website that I did for the owner of a driveway sealing company. For this project I decided to use Gatsby 
+          (a React-based open source framework) because of it's performance, scalability and security built-in.
+          The client asked for a site that was stunning to look at with detailed information 
           explaining what services they performed, what the company stood for, and all the ways to get in contact with them. In the end, 
           the client was very happy with the finished product, and so was I. 
           </p>
+          
+
+          <span className="image main">
+          <h3>Seneca</h3>
+          <a href="https://www.senecacollege.ca/programs/byareaofstudy.html" target="_blank"><img src={pic04} alt="" /></a>
+          </span>
+          
+          <p>
+          <a href="https://www.senecacollege.ca/programs/byareaofstudy.html" target="_blank" >www.senecacollege.ca/programs</a>
+          </p>
+          <p>
+          While working at Seneca I was given the opportunity to work on many of their webpages. Using AEM (Adobe Experience Manager) 
+          I was to create a section and individual pages for their business, health and wellness, hospitality and tourism, and summer institute programs 
+          with content I helped to create. I was also tasked with managing a large variety of content utilizing thier Content Management System.
+          </p>
+
+
+
+
+          <span className="image main">
+          <h3>Toronto District School Board </h3>
+          <a href="https://www.tdsb.on.ca/" target="_blank"><img src={pic05} alt="" /></a>
+          </span>
+          
+          <p>
+          <a href="https://www.tdsb.on.ca/" target="_blank" >www.tdsb.on.ca</a>
+          </p>
+          <p>
+          At TDSB it was my job to handle all requests for new pages to be added to the website and updating the homepage. 
+          I would work closely with TDSB representatives responsible for each section of the website 
+          to make sure that every detail on all the pages was to their liking. 
+          </p>
+
+
+          <span className="image main">
+          <h3>Ace Web Design</h3>
+          <a href="https://adarmygroup.com/web-design/" target="_blank"><img src={pic07} alt="" /></a>
+          </span>
+          
+          <p>
+          <a href="https://adarmygroup.com/web-design/" target="_blank" >adarmygroup.com/web-design</a>
+          </p>
+          <p>
+          At Ad Army Group's Ace Web Design we created custom websites for clients using our own studios for content creation. 
+          We would sit down with the client and discuss what it is they wanted to get out of the website and what 
+          tools we had to bring their vision to life. Using our photo studios, content writers, PhotoShop, and WordPress we 
+          would do everything we could to exceed the client's expectations.
+          </p>
+
+          <span className="image main">
+          <h3>Toronto Biker </h3>
+          <img src={pic06} alt="" />
+          </span>
+          
+          <p>
+          
+          </p>
+          <p>
+          What I aimed to create with Toronto Biker is Toronto’s only app aimed to help bikers get around the city better, 
+          find spots to park their bikes, find bike trails, and locate them to the nearest bike shop If the need should arise.
+          As a biker myself, I wanted to create an app to help me while I was out biking and I chose android studio to help me bring my idea to life. 
+          </p>
+
+
+
           {close}
         </article>
 
@@ -111,29 +182,18 @@ with C, C++, C#, Java, HTML, XHTML, ASP, CSS, PHP, Dreamweaver, Photoshop, Adobe
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-      
+          <h3>Email</h3>
+           <a href="mailto:scottmlaine@gmail.com">ScottMLaine@gmail.com</a> <br></br> <br></br>
+          <h3>Phone</h3>
+          <a href="tel:6476257725">Call me at 647-625-7725</a> <br></br><br></br>
+          <h3>Location</h3>
+          <p>Greater Toronto Area<br></br></p>
+          <h3>LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/scott-laine/" target="_blank" >Scott Laine's LinkedIn</a>
+        
+        
+
+
           {close}
         </article>
       </div>
